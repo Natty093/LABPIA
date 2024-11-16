@@ -1,0 +1,30 @@
+
+body {
+    background-color: #CFC090;
+}
+.hero {
+    background-image: url('https://cdn.aarp.net/content/dam/aarpe/es/home/hogar-familia/familia-bienestar/info-2023/prevenir-lesiones-al-pasear-perro/_jcr_content/root/container_main/container_body_main/container_body1/container_body_cf/container_image/articlecontentfragment/cfimage.coreimg.50.932.png/content/dam/aarp/home-and-family/family-and-friends/2023/07/1140-woman-walking-dog-esp.png'); /* Cambia esta URL por una imagen de la banda */
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.navbar{
+    background-color: #CFC090;
+    padding: 10px 0;
+}
+hr{
+    border: 1px solid #000000;
+    background-color: #000000;
+    padding: 0px 0;
+    margin: 0px 0;
+}
+.cita{
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.xd{
+    background-color: #FFFFF0;
+}

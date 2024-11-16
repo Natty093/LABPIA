@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Citas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #cfc090;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Inicio.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="citas.html">Citas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Comentarios.html">Comentarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Nosostros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">contactanos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="button">
+                <a class="btn btn-secondary" href="iniciodesesion.html" role="button">Sign up</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <hr>
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-md-20 p-4 rounded shadow xd">
+      <h5 class="text-center mb-4">Selecciona un día</h5>
+
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Calendario -->
+          <div>
+            <input type="date" class="form-control mb-3">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <!-- Formulario -->
+          <form>
+            <div class="mb-3">
+              <label for="hora" class="form-label">Selecciona una de nuestras horas</label>
+              <select id="hora" class="form-select">
+                <option selected>Hora</option>
+                <option value="9am">9:00 AM</option>
+                <option value="10am">10:00 AM</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="direccion" class="form-label">Dirección</label>
+              <input type="text" id="direccion" class="form-control" placeholder="Calle">
+            </div>
+            <div class="mb-3">
+              <label for="num-casa" class="form-label">Número de casa</label>
+              <input type="text" id="num-casa" class="form-control" placeholder="1239">
+            </div>
+            <div class="mb-3">
+              <label for="municipio" class="form-label">Municipio</label>
+              <input type="text" id="municipio" class="form-control" placeholder="Municipio">
+            </div>
+            <div class="mb-3">
+              <label for="tipo-servicio" class="form-label">Tipo de servicio</label>
+              <select id="tipo-servicio" class="form-select">
+                <option selected>Selecciona el servicio</option>
+                <option value="servicio1">Servicio 1</option>
+                <option value="servicio2">Servicio 2</option>
+              </select>
+            </div>
+            <p class="text-muted">Los servicios son exclusivos para el estado de Nuevo León.</p>
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary">Cancelar</button>
+              <button type="submit" class="btn btn-outline-success">Aceptar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="#" class="text-primary">Ya tienes citas, haz clic aquí</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
